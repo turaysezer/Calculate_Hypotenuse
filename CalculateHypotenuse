@@ -1,0 +1,8 @@
+print("Hipotenüs Hesaplama")
+
+print("Hipotenüse Komşu İki Açıyı Giriiniz...")
+
+a=int(input("Dik Kenar Uzunluğunu Giriniiz:"))
+b=int(input("Dik Kenar Uzunluğunu Giriniz:"))
+c=int(a**2+b**2)**0.5
+print(("Hipotenüs:"),c)
