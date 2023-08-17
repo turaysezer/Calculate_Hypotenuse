@@ -1,8 +1,8 @@
-print("Hipotenüs Hesaplama")
+print("Hypotenuse Calculation")
 
-print("Hipotenüse Komşu İki Açıyı Giriiniz...")
+print("Enter the Lengths of the Two Adjacent Sides to the Hypotenuse...")
 
-a=int(input("Dik Kenar Uzunluğunu Giriniiz:"))
-b=int(input("Dik Kenar Uzunluğunu Giriniz:"))
-c=int(a**2+b**2)**0.5
-print(("Hipotenüs:"),c)
+a = int(input("Enter the Length of the First Leg:"))
+b = int(input("Enter the Length of the Second Leg:"))
+c = int((a ** 2 + b ** 2) ** 0.5)
+print(("Hypotenuse:"), c)
